@@ -114,12 +114,16 @@ footer h2{
     }
   }
 
-  @media screen and (max-width: 453px){
+   @media screen and (max-width: 432px){
     nav{
       justify-content: center;
     }
     nav .onglet{
       margin-top: -10px;
       margin-bottom: 20px;
+      margin-right: 10px;
+    }
+    nav h1{
+      margin-right: 10px;
     }
   }
