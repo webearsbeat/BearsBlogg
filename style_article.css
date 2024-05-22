@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
+body{
+    margin: 0px 80px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    width: 87%;
+    margin-top: -100px;
+}
+
+
+nav h1{
+    font-size: 30px;
+    margin-top: 15px;
+    float: left;
+}
+
+nav .onglet{
+    margin-top: 27px;
+}
+
+nav .onglet a{
+    text-decoration: none;
+    color: #915d4f;
+    margin-right: 10px;
+}
+
+nav .onglet a:hover{
+    text-decoration: underline;
+}
+
+.articles{
+    margin-top: 100px;
+}
+
+.articles .article{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.articles .article .left img{
+    height: 300px;
+    width: 500px;
+}
+
+.articles .article .right{
+    max-width: 50%;
+    margin-left: 40px;
+}
+
+.articles .article .right .date{
+    color: #724437;
+}
+
+.articles .article .right .auteur{
+    color: #583127;
+}
+
+footer{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    color: #494949;
+}
+
+footer h2{
+    font-size: 20px;
+    font-family: 'Crimson Text', serif;
+    margin-top: 20px;
+  }
+  footer .reseauxsociaux{
+    display:flex;
+  }
+  footer .reseauxsociaux p img{
+    width: 30px;
+    margin-right: 20px;
+  }
+  
+  @media screen and (max-width: 640px){
+    body{
+      margin: 10px 20px;
+    }
+    nav{
+        width: 95%;
+        margin-top: -170px;
+    }
+  
+    .articles{
+      margin-top: 170px;
+    }
+    .articles .article .left img{
+      height: 100%;
+      width:100%;
+    }
+    .articles .article .right{
+      margin: 0px;
+      max-width: 100%;
+    }
+    footer .social-media{
+      margin-top: -20px;
+    }
+  }
+
+  @media screen and (max-width: 453px){
+    nav{
+      justify-content: center;
+    }
+    nav .onglet{
+      margin-top: -10px;
+      margin-bottom: 20px;
+    }
+  }

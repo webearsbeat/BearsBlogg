@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
+body{
+    margin: 0px 80px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    width: 87%;
+    margin-top: -100px;
+}
+
+nav h1{
+    font-size: 30px;
+    margin-top: 15px;
+    float: left;
+}
+
+nav .onglet{
+    margin-top: 27px;
+}
+
+nav .onglet a{
+    text-decoration: none;
+    color: #915d4f;
+    margin-right: 10px;
+}
+
+nav .onglet a:hover{
+    text-decoration: underline;
+}
+
+.page{
+    margin-top: 100px;
+}
+
+.page .articledujour{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.page .articledujour .left img{
+    height: 300px;
+    width: 500px;
+}
+
+.page .articledujour .right{
+    max-width: 50%;
+    margin-left: 40px;
+}
+
+.page .articledujour .right .date{
+    color: #724437;
+}
+
+.page .article .right .auteur{
+    color: #583127;
+}
+
+.page .semaine{
+    text-align: center;
+    font-size: 35px;
+}
