@@ -114,7 +114,7 @@ footer h2{
     }
   }
 
-   @media screen and (max-width: 432px){
+  @media screen and (max-width: 454px){
     nav{
       justify-content: center;
     }
